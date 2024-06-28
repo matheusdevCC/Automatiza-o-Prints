@@ -9,21 +9,7 @@ class Program
     {
         
         string[] siteUrls = {
-            "https://www.fcmsantacasasp.edu.br/arearestrita/",
-            "https://fcmsantacasasp.edu.br/ead/",
-            "https://ead.fcmsantacasasp.edu.br/ava/login/index.php",
-            "http://ead.fcmsantacasasp.edu.br/",
-            "https://fcmsantacasasp.edu.br/",
-            "https://novoportal.fcmsantacasasp.edu.br/FrameHTML/web/app/RH/PortalMeuRH/#/login",
-            "http://santamemoria.org.br/",
-            "https://interact.fcmsantacasasp.edu.br/apps/cmn/LauncherLogin.jsp",
-            "http://www.fcmsantacasasp.edu.br/wp-login.php",
-            "http://repositorio.fcmsantacasasp.edu.br/",
-            "http://bibliomedtrab.fcmsantacasasp.edu.br/",
-            "http://arquivosmedicos.fcmsantacasasp.edu.br/index.php/AMSCSP",
-            "http://chamados.fcmsantacasasp.edu.br/glpi/",
-            "https://novoportal.fcmsantacasasp.edu.br/frameHTML/web/app/edu/PortalEducacional/login/",
-            "https://dcma.fcmsantacasasp.edu.br/admin"
+           "SITES"
         };
 
        
@@ -36,7 +22,7 @@ class Program
         Directory.CreateDirectory(tempFolderPath);
 
        
-        string chromeDriverPath = "C:\\temp\\PrintFaculdade";
+        string chromeDriverPath = "C:\\temp\\Print";
 
         
         using (IWebDriver driver = new ChromeDriver(chromeDriverPath, options))
